@@ -1,4 +1,6 @@
-body{background-image: url(https://previews.123rf.com/images/vizafoto/vizafoto1801/vizafoto180100298/92942723-masa-con-harina-sobre-un-fondo-antiguo-en-una-composici%C3%B3n-con-accesorios-de-cocina.jpg);
+body{
+    background-color: crimson;
+    background-image: url(../imagenes/cocina.jpg);
 
 background-repeat: no-repeat;
 
@@ -7,6 +9,8 @@ background-attachment: fixed;
 background-size: cover;
 }
 
+p {font-size: 20px;}
+
 .marron{ background-color: brown;}
 
 .verde{ background-color: green; 
@@ -14,7 +18,6 @@ background-size: cover;
 width: 400px;
 
 } 
-
 
 
 h1 { font-size: 30px;
@@ -32,3 +35,31 @@ h2 { font-size: 23px; text-decoration: underline;}
 
 
 .rick {font-size: 30px;}
+
+.milanesas { font-size:  30px;
+ background-color: yellow;
+}
+
+.milanga { font-size:  30px;
+ background-color: darkorange;
+}
+
+
+
+.btn-wsp{position: fixed;
+    
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 55px;
+    right: 55px;
+    background: green;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1 px 10px rgba(0,0 ,0 ,3 ) ;
+    z-index: 100;
+    }
+
+   
