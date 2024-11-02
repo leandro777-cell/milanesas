@@ -272,7 +272,7 @@ flex-grow: 100;
  }
 
  .info {
-background-color: white;
+background-color: black;
 
 text-decoration: underline;
 
@@ -287,7 +287,7 @@ margin-left: 50px;
 
  a:link { 
 
-   color: blue;
+   color: red;
    
    
    
@@ -295,7 +295,7 @@ margin-left: 50px;
    
    a:visited {
    
-   color:green;
+   color:blue;
    
    }
    
@@ -323,8 +323,27 @@ div {
 }
 
 
+.card-img-top{
+
+height: 18vh;
 
 
+}
+
+
+
+
+
+
+
+
+.cards{
+display: flex;
+margin-bottom: 900px;
+
+justify-content: center;
+align-items:flex-end;
+}
 
 
 
