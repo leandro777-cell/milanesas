@@ -24,7 +24,7 @@
 
 
    body               {
-      background-color: crimson;
+      background-color:white;
       background-image: url(../imagenes/cocina.jpg);
   
   background-repeat: no-repeat;
@@ -37,7 +37,7 @@
    
 }
 
-p              {font-size: 20px;}
+
 
 .marron{ background-color: brown;}
 
@@ -62,8 +62,7 @@ background-size: cover;
  }
 
 h1             { font-size: 45px;
-   
-    
+
  text-decoration: underline;
 
  display: flex;
@@ -84,23 +83,7 @@ h3  { font-size: 25px;}
  
  .pa {   font-size: 30px;}
 
-.rick                    {font-size: 30px;
 
-}
-
-.milanesas             { font-size:  30px;
- 
-
-}
-
-.milanga               { font-size:  30px;
-
-}
-
-.contact            { font-size: 30px;    
-
-
-}
 
 
    .waza                   {position: fixed;
@@ -113,7 +96,7 @@ h3  { font-size: 25px;}
 @media ( max-width:992px) {
    .mila{
 
-      height: 36vh;
+      height: 33vh;
       display:none;
       
       }
@@ -122,7 +105,7 @@ h3  { font-size: 25px;}
 
 .mila{
 
-   height: 36vh;
+   height: 35vh;
 }
 
 @media ( min-width:992px) {
@@ -136,7 +119,7 @@ h3  { font-size: 25px;}
 }
 .mila2{
 
-   height: 36vh;
+   height: 25vh;
 }
 @media (min-width: 992px){
 .vid2 {
@@ -150,7 +133,8 @@ display:none;
 }
 
 .vid2 {
-   font-size: 45px;
+   background-color: white;
+   font-size: 4vh;
    text-decoration: underline;
 
 }
@@ -163,11 +147,14 @@ display:none;
    }
    
 }
-   .vid {   height: 40vh ;
-      width:   50vh ;     
+   .vid {  
+      
+      padding: 0.25vh;
+      height: 40vh ;
+     width: 50vh;
 
-
-
+      background-color: white;
+      
    }
 
 
@@ -206,6 +193,7 @@ background-color: maroon;
 
    .keso {
 height: 17vh ;
+width: 9vw;
 flex-grow: 1;
 margin: 5px;
 margin-right: 30px;
@@ -227,12 +215,6 @@ height: 13vh;
 
 nav   {
    
-   
-   
-   
-   display: flex;
-justify-content: space-around;
- flex-direction: row;
 
 
 padding: 30px;
@@ -272,8 +254,8 @@ flex-grow: 100;
  }
 
  .info {
-background-color: black;
-
+background-color: red;
+font-size: 4vh;
 text-decoration: underline;
 
 margin-right: 50px;
@@ -317,34 +299,63 @@ margin-left: 50px;
    }
    
 
-div {
 
-   height: 24vh;
+
+
+   .card-img-top{
+      
+     height: 15vh;
+      
+   }
+
+   
+   
+   
+   
+   .links2{display: flex;
+      flex-direction: row;
+justify-content: space-around;
+
+
+   }
+   
+   
+   
+
+
+@media (max-width:992px) {
+   
+
+   
+   .milanga{
+
+      font-size: 1.5vh;
+      margin: 0.5vh;
+
 }
 
 
-.card-img-top{
 
-height: 18vh;
+
+
+
+
+
+
 
 
 }
 
+  @media (min-width:992px) {
+   
+
+   .milanga{
+
+      font-size: 3.25vh;
+      margin: 1vh;
+
+  }
 
 
-
-
-
-
-
-.cards{
-display: flex;
-margin-bottom: 900px;
-
-justify-content: center;
-align-items:flex-end;
-}
-
-
-
-
+ 
+  }

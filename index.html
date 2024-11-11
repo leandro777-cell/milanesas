@@ -1,7 +1,7 @@
 <!DOCTYPE html> 
 <html lang="es" dir="ltr">
 
-<head>
+<head id="header">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Recetas para milanesas">
@@ -10,10 +10,19 @@
 
     <title>Receta de milanesa</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-<link rel="stylesheet" href="./css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="./css/estilos.css">
 
-</head>
+
+
+<script>
+ alert ("are you ready?")
+</script>
+
+
+</head >
 <body>
     <header>
     <!--hay que mejorar el posicionamiento de las imagenes aca y en el footer-->
@@ -32,25 +41,32 @@
         <h1 class="marron">Receta para milanesas</h1><br>
         <img class="keso" src="./imagenes/LOGO.png">
 
+        <button onclick= "darkmode()">modo batman</button>
+
     </header>
 
-<nav>
-    <a class="milanesas" target="_blank" href="https://cookpad.com/ar/recetas/11867802-milanesa-de-carne-caseras">Milanesa de carne</a><br>
+<nav id="nav">
+
+  <div class="links2">
+
+    <a class="milanga" target="_blank" href="https://cookpad.com/ar/recetas/11867802-milanesa-de-carne-caseras">Milanesa de carne</a><br>
 
 <a class="milanga" target="_blank" href="https://www.clarin.com/recetas/platos-principales/milanesa-de-pollo_7_qFaw9wlA2.html?gad_source=1&gclid=Cj0KCQjwjY64BhCaARIsAIfc7YbkOJImd9j7C833EOQmmAjwH7VjryrRM4INFSe_Hw-t77sJgsQJqQ4aAsnTEALw_wcB">Milanesa de pollo</a><br>
 
-<a class="milanesas" target="_blank" href="https://www.clarin.com/recetas/platos-principales/milanesa-de-berenjena_7_0qg0Nlc_k.html?gad_source=1&gclid=Cj0KCQjwjY64BhCaARIsAIfc7YaD14F3tI83nIRUmi03j3nul3vGRQtMYHItTPk1Qshvcn-DNB6Iv0waAh61EALw_wcB">Milanesa de berenjena</a><br>
+<a class="milanga" target="_blank" href="https://www.clarin.com/recetas/platos-principales/milanesa-de-berenjena_7_0qg0Nlc_k.html?gad_source=1&gclid=Cj0KCQjwjY64BhCaARIsAIfc7YaD14F3tI83nIRUmi03j3nul3vGRQtMYHItTPk1Qshvcn-DNB6Iv0waAh61EALw_wcB">Milanesa de berenjena</a><br>
 
 <a class="milanga" target="_blank" href="https://cookpad.com/ar/recetas/16412641-milanesas-de-pescado">Milanesa de pescado</a><br>
 
-<a class="rick" target ="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">MAGIA</a>
+<a class="milanga" target ="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">MAGIA</a>
 
-<a class="contact" href="contactos.html"> Contactos</a>
+<a class="milanga" href="contactos.html"> Contactos</a>
+
+</div>
 
 </nav>
 
 
-<section>
+<section id="section">
 
     <p class="pa"    >En esta pagina les enseñare como realizar una rica y deliciosa milanesas, los ingredientes y pasos son los siguientes:</p>
     <h2 class="verde">Ingredientes</h2>
@@ -100,6 +116,8 @@
 
  <div class="row">
 
+ 
+ 
   <div class="tarjeta1  col-sm-12   col-md-6  col-lg-3">
 
     <div class="card">
@@ -113,6 +131,7 @@
 
 
     </div>
+
 
 
 
@@ -130,12 +149,12 @@
     
         </div>
     
+   
 
 
 
 
-
-
+      
 
         <div class="tarjeta3  col-sm-12  col-md-6 col-lg-3">
 
@@ -150,9 +169,9 @@
         
         
             </div>
-        
+          
     
-
+          
 
             <div class="tarjeta4  col-sm-12   col-md-6 col-lg-3">
 
@@ -168,7 +187,7 @@
             
                 </div>
             
-        
+              
 
 
 
@@ -183,6 +202,7 @@
 
 
 </div>
+<br>
 
 
 
@@ -198,7 +218,7 @@
 
 
 
-<footer>
+<footer id="footer">
     
 <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4079.7344751808414!2d-58.72106342339596!3d-34.508947052500886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca2b4282640d7%3A0x25e7c454b6f1501c!2sBattle%20Planas%2C%20B1613%20Los%20Polvorines%2C%20Provincia%20de%20Buenos%20Aires!5e1!3m2!1ses-419!2sar!4v1727126799344!5m2!1ses-419!2sar"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 <br>
@@ -215,7 +235,7 @@
 
 </div>
 
-<p class="info">un pibe estudioso que le gustan las milanesa y los juegos</p>
+<button onclick="autor()" class="info">info del autor</button>
 <br>
 
 
@@ -224,6 +244,8 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<script src="./js/javascript.js"></script>
 
 </body>
 
