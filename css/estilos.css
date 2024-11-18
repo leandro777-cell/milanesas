@@ -39,6 +39,19 @@
 
 
 
+
+
+
+.contact {display: flex;
+justify-content: center;
+   font-size: 5vh;
+}
+
+
+
+
+
+
 .marron{ background-color: brown;}
 
 .verde{ background-color: green; 
@@ -183,6 +196,7 @@ align-items:flex-start;
 flex-wrap: wrap;
 
 background-color: maroon;
+
 
 
 }
@@ -358,4 +372,15 @@ justify-content: space-around;
 
 
  
+  }
+
+
+  a {
+   font-size: 3.2vh;
+  }
+
+  .page {display: flex;
+background-color: coral;
+justify-content: space-around;
+
   }
