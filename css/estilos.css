@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Jaro:opsz@6..72&family=Protest+Revolution&display=swap');
 
 @media (max-width: 992px){
 
@@ -52,7 +54,14 @@ justify-content: center;
 
 
 
-.marron{ background-color: brown;}
+.marron{ background-color: brown;
+
+
+   font-family: "Bokor", serif;
+   font-weight: 400;
+   font-style: normal;
+
+}
 
 .verde{ background-color: green; 
 height:30px ;
@@ -87,14 +96,35 @@ margin-right:30px;
 
 }
 
-h2                    { font-size: 30px; text-decoration: underline;} 
+h2 { font-size: 3vh; text-decoration: underline;
+   font-family: "Protest Revolution", serif;
+   font-weight: 400;
+   font-style: normal;
+
+} 
 
 
-h3  { font-size: 25px;}
+h3  { font-size: 25px;
+   font-family: "Protest Revolution", serif;
+   font-weight: 400;
+   font-style: normal;
 
- li {   font-size: 20px;} 
+}
+
+ li {   font-size: 20px;
+
+   font-family: "Protest Revolution", serif;
+   font-weight: 400;
+   font-style: normal;
+
+} 
  
- .pa {   font-size: 30px;}
+ .letragod2 {font-size: 3vh;
+
+   font-family: "Protest Revolution", serif;
+   font-weight: 400;
+   font-style: normal;
+} 
 
 
 
@@ -383,4 +413,13 @@ justify-content: space-around;
 background-color: coral;
 justify-content: space-around;
 
+
+
+
   }
+  
+.formulario{
+
+background-color: black;
+
+}
